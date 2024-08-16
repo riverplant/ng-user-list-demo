@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+h2 {
+  width: 100%;
+  text-align:center;
+   background-color: white;
+}
+
+
+
+.example-button-row {
+  width: 80%;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 4px 8px;
+}
+

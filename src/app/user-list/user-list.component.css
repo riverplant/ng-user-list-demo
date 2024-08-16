@@ -1,0 +1,15 @@
+table,
+.mat-paginator {
+  width: 100%;
+}
+
+content {
+  border-radius: 10px;
+  padding: 8px;
+  min-height: 40vh;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}

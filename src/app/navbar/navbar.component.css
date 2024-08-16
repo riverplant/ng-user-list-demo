@@ -1,0 +1,41 @@
+
+:host{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  background-color: #005cbb;
+  color: white;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 8px 8px;
+  padding: 4px;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
